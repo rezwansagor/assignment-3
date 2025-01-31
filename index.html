@@ -20,16 +20,45 @@
             font-family: "ADLaM Display", serif;
 
         }
+
         .sora {
             font-family: "Sora", serif;
 
         }
-          
     </style>
 </head>
 
 <body>
-    
+    <header>
+        <!-- nav-bar started -->
+        <nav class="flex justify-between px-5 py-5 md:flex md:justify-around items-center md:py-7 bg-[#FFF9F4] ">
+            <!-- logo and brand name -->
+            <div class="flex items-center gap-3">
+                <img src="assets/logo-header.png" alt="">
+                <h1 class=" hidden lg:block text-2xl  sora">Browse<span class="text-[#FFDC26]">4</span>Pets</h1>
+            </div>
+            <!-- middle menu items -->
+            <ul class=" hidden md:flex items-center sora text-lg  gap-8">
+                <li><a href="">Find a Pet</a></li>
+                <li><a href="">Breeds</a></li>
+                <li><a href="">Contact us</a></li>
+            </ul>
+            <!-- icons and buttons -->
+            <div class="hidden md:flex flex-row items-center gap-3">
+                <i class="fa-regular fa-bell text-2xl"></i>
+                <i class="fa-solid fa-magnifying-glass text-2xl"></i>
+                <button class="btn  btn-warning bg-transparent  py-1 px-8 text-lg  ">Login</button>
+                <button class="btn btn-warning py-1 px-8 text-lg">Register</button>
+
+            </div>
+            <!-- hamburger menu -->
+            <div class="md:hidden"><i class="fa-solid fa-bars text-3xl "></i></div>
+        </nav>
+        <hr class="h-[2px] w-full bg-[#939393] md:hidden">
+        <!-- nav-bar ended -->
+    </header>
+    <main></main>
+    <footer></footer>
 
 </body>
 
