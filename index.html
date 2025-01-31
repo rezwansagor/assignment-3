@@ -31,7 +31,8 @@
 <body>
     <header>
         <!-- nav-bar started -->
-        <nav class="flex justify-between px-5 py-5 md:flex md:justify-around items-center md:py-7 bg-[#FFF9F4] ">
+        <nav
+            class="flex justify-between px-5 py-5 md:flex md:justify-around items-center md:py-7 md:mb-20 bg-[#FFF9F4] ">
             <!-- logo and brand name -->
             <div class="flex items-center gap-3">
                 <img src="assets/logo-header.png" alt="">
@@ -44,7 +45,7 @@
                 <li><a href="">Contact us</a></li>
             </ul>
             <!-- icons and buttons -->
-            <div class="hidden md:flex flex-row items-center gap-3">
+            <div class="hidden md:flex flex-row items-center gap-3 sora">
                 <i class="fa-regular fa-bell text-2xl"></i>
                 <i class="fa-solid fa-magnifying-glass text-2xl"></i>
                 <button class="btn  btn-warning bg-transparent  py-1 px-8 text-lg  ">Login</button>
@@ -54,8 +55,24 @@
             <!-- hamburger menu -->
             <div class="md:hidden"><i class="fa-solid fa-bars text-3xl "></i></div>
         </nav>
-        <hr class="h-[2px] w-full bg-[#939393] md:hidden">
+        <hr class="h-[2px] w-full bg-[#939393] mb-8 md:hidden">
         <!-- nav-bar ended -->
+
+        <!-- banner section started -->
+        <div
+            class="relative max-w-[450px]  md:max-w-screen-2xl md:mx-auto  md:bg-[url('/assets/cat-big.png')] md:bg-bottom md:bg-no-repeat md:mb-36 ">
+            <div class="pl-6 pr-4">
+                <h1 class="adlam-display max-w-[358px] text-3xl md:text-6xl md:max-w-[681px] text-[#111111]">Pamper Your
+                    Pet, Because They Deserve <br> the Bes</h1>
+                <p
+                    class="sora max-w-[350px] text-[16px] leading-5 md:text-xl md:leading-9 text-gray-600 md:max-w-[672px] mt-4">
+                    Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and
+                    make tails wag with joy!</p>
+                <button class="btn btn-warning text-xl sora md:mb-96 mt-6">Find a Pet</button>
+            </div>
+            <img class="absolute top-44 -z-10 w-full m-0 md:hidden" src="assets/cat-big.png" alt="">
+        </div>
+
     </header>
     <main></main>
     <footer></footer>
